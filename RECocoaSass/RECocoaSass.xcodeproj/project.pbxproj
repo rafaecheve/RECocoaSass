@@ -21,6 +21,8 @@
 		53C1CD9518E7E72E004B54DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C1CD7718E7E72E004B54DD /* UIKit.framework */; };
 		53C1CD9D18E7E72E004B54DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53C1CD9B18E7E72E004B54DD /* InfoPlist.strings */; };
 		53C1CD9F18E7E72E004B54DD /* RECocoaSassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1CD9E18E7E72E004B54DD /* RECocoaSassTests.m */; };
+		53C1CDF418E91D30004B54DD /* CSClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1CDF318E91D30004B54DD /* CSClass.m */; };
+		53C1CDF718E91DC0004B54DD /* UILabel+RECocoaSass.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1CDF618E91DC0004B54DD /* UILabel+RECocoaSass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		53C1CD9A18E7E72E004B54DD /* RECocoaSassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RECocoaSassTests-Info.plist"; sourceTree = "<group>"; };
 		53C1CD9C18E7E72E004B54DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53C1CD9E18E7E72E004B54DD /* RECocoaSassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RECocoaSassTests.m; sourceTree = "<group>"; };
+		53C1CDF218E91D30004B54DD /* CSClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSClass.h; sourceTree = "<group>"; };
+		53C1CDF318E91D30004B54DD /* CSClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSClass.m; sourceTree = "<group>"; };
+		53C1CDF518E91DC0004B54DD /* UILabel+RECocoaSass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RECocoaSass.h"; sourceTree = "<group>"; };
+		53C1CDF618E91DC0004B54DD /* UILabel+RECocoaSass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RECocoaSass.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 		53C1CD6718E7E72E004B54DD = {
 			isa = PBXGroup;
 			children = (
+				53C1CDF218E91D30004B54DD /* CSClass.h */,
+				53C1CDF318E91D30004B54DD /* CSClass.m */,
 				53C1CD7918E7E72E004B54DD /* RECocoaSass */,
 				53C1CD9818E7E72E004B54DD /* RECocoaSassTests */,
 				53C1CD7218E7E72E004B54DD /* Frameworks */,
@@ -116,6 +124,8 @@
 				53C1CD8318E7E72E004B54DD /* REAppDelegate.m */,
 				53C1CD8518E7E72E004B54DD /* Main.storyboard */,
 				53C1CD8818E7E72E004B54DD /* REViewController.h */,
+				53C1CDF518E91DC0004B54DD /* UILabel+RECocoaSass.h */,
+				53C1CDF618E91DC0004B54DD /* UILabel+RECocoaSass.m */,
 				53C1CD8918E7E72E004B54DD /* REViewController.m */,
 				53C1CD8B18E7E72E004B54DD /* Images.xcassets */,
 				53C1CD7A18E7E72E004B54DD /* Supporting Files */,
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C1CDF418E91D30004B54DD /* CSClass.m in Sources */,
 				53C1CD8018E7E72E004B54DD /* main.m in Sources */,
 				53C1CD8418E7E72E004B54DD /* REAppDelegate.m in Sources */,
 				53C1CD8A18E7E72E004B54DD /* REViewController.m in Sources */,
+				53C1CDF718E91DC0004B54DD /* UILabel+RECocoaSass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +469,7 @@
 				53C1CDA418E7E72E004B54DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53C1CDA518E7E72E004B54DD /* Build configuration list for PBXNativeTarget "RECocoaSassTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				53C1CDA718E7E72E004B54DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
