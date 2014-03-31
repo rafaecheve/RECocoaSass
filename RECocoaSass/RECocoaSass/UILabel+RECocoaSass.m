@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 rafaecheve. All rights reserved.
 //
 
-#import "UILabel+UILabel_RECocoaSass.h"
+#import "UILabel+RECocoaSass.h"
 
 @implementation UILabel (RECocoaSass)
 
