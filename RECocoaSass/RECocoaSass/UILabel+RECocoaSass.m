@@ -10,7 +10,7 @@
 
 @implementation UILabel (RECocoaSass)
 
-- (id)initWithStyle:(CSClass *)class {
+- (instancetype)initWithStyle:(CSClass *)class {
 
     return 0;
 }
