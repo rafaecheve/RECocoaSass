@@ -10,9 +10,9 @@
 
 @implementation UILabel (RECocoaSass)
 
-- (NSString*)shortTimeAgoSinceDate:(NSDate*)date{
-    
-    return @"";
+- (id)initWithStyle:(CSClass *)class {
+
+    return 0;
 }
 
 @end

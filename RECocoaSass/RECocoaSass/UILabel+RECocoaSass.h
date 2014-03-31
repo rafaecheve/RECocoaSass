@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CSClass.h"
 
 @interface UILabel (RECocoaSass)
 
-- (NSString*)shortTimeAgoSinceDate:(NSDate*)date;
+- (id)initWithStyle:(CSClass *)class;
 
 @end

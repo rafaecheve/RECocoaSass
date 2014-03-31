@@ -7,6 +7,7 @@
 //
 
 #import "REViewController.h"
+#import "UILabel+RECocoaSass.h"
 
 @interface REViewController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad
 {
+    
+    UILabel *c = [[UILabel alloc]initWithFrame:CGRectZero];
+    
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
